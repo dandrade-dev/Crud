@@ -58,6 +58,8 @@ Realizado a alteração do httpd_vhosts para utilização de uma url amigavel
 
 
 Observaçôes :
-Projeto possui erro ao adicionar na tabela funcionario_cargo após adicionar a linha de codigo para realização do relacionamento many_to_many pelo yii
-Projeto funcionando normalmente, somenta a parte backend do administrador, o frontend (usuario) não foi progamada.
-Feito o CRUD para inserção,update,delete e list dos funcionarios e dos cargos e criado uma terceira tabela onde relaciona ambas.
+O projeto foi desenvolvido na parte backend do administrador, onde foi criado um usuario onde ao realizar a migrations ele adiciona automanticamente no banco
+user: admin  senha: admin.
+O crud foi desenvolvido em ambas as classes Funcionarios e Cargo e foi criado uma tabela relacional para melhor funcionamento, a parte front end para usuario não foi desenvolvida,
+mas a proposta do desafio foi realizada.
+Infelizmente existe apenas no index do Funcionarios, não consegui trazer o nome ou o id do cargo, não consegui encontrar uma forma dentro da GridView.
